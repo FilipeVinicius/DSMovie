@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --color-primary: #4D41C0;
+    --text-gray: #4a4a4a;
+    --bg-gray: #ddd;
+    --white: #fff;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{background-color: var(--bg-gray);}
+
+h1, h2, h3, h4, h5 , h6{margin: 0;}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: var(--white);
+    height: 9.5vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.fa-github{
+    font-size: 4vh;
+}
+nav a {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+a, a:hover{
+    color: #fff;
+    text-decoration: none;    
+}
+
+.dsmovie-card{
+    width: 100%;
+   
+
+}
+
+.dsmovie-card img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+#dsmovie-card-list{
+    padding: 40px 0px;
+}
+
+.dsmovie-card-description{
+    padding: 10px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    border-radius: 0 0 8px 8px;
+    min-height: 150px;
+}
+
+.dsmovie-card-description h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.dsmovie-btn{
+    background-color: var(--color-primary);
+    color: var(--white);
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
